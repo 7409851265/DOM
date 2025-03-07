@@ -22,9 +22,17 @@ btnValues.forEach(button => {
     })
     equal.addEventListener('click', function(){
         inputDisplay.value = eval(input);
+        
     })
 
     clear.addEventListener('click', function(){
         inputDisplay.value = "";
     })
 });
+
+
+
+
+
+
+
